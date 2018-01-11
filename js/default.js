@@ -14,7 +14,7 @@ function play(audioType){
 			var audio = document.getElementById("noise");
 			audio.play();
 			break;
-	
+	}
 }
 
 
