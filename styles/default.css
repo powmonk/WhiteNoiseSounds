@@ -65,7 +65,13 @@ h1 {
 }
 
 .icon_box:hover {
+	background-size: 42%;
 	opacity: 0.5;
+}
+
+.icon_box:active {
+	background-size: 45%;
+	opacity: 0.9;
 }
 
 

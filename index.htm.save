@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<script type="text/javascript" src="js/default.js"></script>
+		<link rel="stylesheet" href="styles/default.css">
+	</head>
+
+	<body>
+		<div class="center_column">
+
+		<center><p><h1>White Noise Sounds</h1></p></center>
+
+			
+			<div class="box" style="background-color:#AEC3B0;" onclick="play()" >
+				<audio id="audio" src="assets/" ></audio>
+				<div class="icon_box" style="background-image:url(assets/treble_clef.svg);"></div>
+			</div>
+
+			<div class="box" style="background-color:#124559;">
+				<div class="icon_box" style="background-image:url(assets/rain_cloud.svg);"></div>
+			</div>
+
+			<div class="box" style="background-color:#5588AA"></div>
+
+			<div class="box" style="background-color:#AEC3B0"></div>
+
+			<div class="box" style="background-color:#124559"></div>
+
+			<div class="box" style="background-color:#5588AA"></div>
+
+			</div>                                        
+	</body>
+</html>
+
+<!--
+124559
+5588AA
+AEC3B0
+-->
