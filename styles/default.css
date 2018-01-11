@@ -23,11 +23,23 @@ h1 {
 	font-weight: bold;
 }
 
-.center_column{
+
+@media (orientation: landscape) { 
+	.center_column{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 40%;
+	}
+}
+
+@media (orientation: portrait) { 
+	.center_column{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	}
 }
 
 .box{
