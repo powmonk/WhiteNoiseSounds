@@ -7,7 +7,7 @@ function play(audioType){
 	
 	switch(audioType) {
 		case 'jazz':
-			audio.play = audio.paused?audio.play:!audio.play;
+			audio.play() = audio.paused?true:false;
 			break;
 		case 'rain':
 			var audio = document.getElementById("rain");
