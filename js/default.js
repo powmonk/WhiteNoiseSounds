@@ -2,7 +2,7 @@ function play(audioType){
 	
 	switch(audioType) {
 		case 'jazz':
-			var audio = document.getElementById("rain");
+			var audio = document.getElementById("jazz");
 			break;
 		case 'rain':
 			var audio = document.getElementById("rain");
