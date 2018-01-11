@@ -13,7 +13,7 @@ function play(audioType){
 			break;
 		case 'train':
 			var audio = document.getElementById("train");
-			audio.volume = 0.2; 
+			audio.volume = 0.05; 
 			break;
 	}
 	
