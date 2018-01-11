@@ -11,6 +11,9 @@ function play(audioType){
 		case 'noise':
 			var audio = document.getElementById("noise");
 			break;
+		case 'train':
+			var audio = document.getElementById("train");
+			break;
 	}
 	
 	if(audio.paused){
