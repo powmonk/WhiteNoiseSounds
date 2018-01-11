@@ -24,7 +24,7 @@ h1 {
 }
 
 
-@media (orientation: landscape) { 
+@media all and (orientation: landscape) { 
 	.center_column{
 		display: block;
 		margin-left: auto;
@@ -33,9 +33,9 @@ h1 {
 	}
 }
 
-@media (orientation: portrait) {
+@media all and (orientation: portrait) {
 	.center_column{
-		backroung-color: #000000;
+		background-color: #000000;
 		width: 100%;
 	}
 }
