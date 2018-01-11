@@ -20,32 +20,19 @@ h1 {
 }
 
 
-@media all and (orientation: landscape) { 
-	body {
-	    background-color: #FFFFFF;
-	    font: 15px arial, sans-serif;
-	}
-
-	
-	.center_column{
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		width: 40%;
-	}
+body {
+    background-color: #EFF6E0   ;
+    font: 15px arial, sans-serif;
 }
 
-@media all and (orientation: portrait) {
-	body {
-	    background-color: #888888;
-	    font: 15px arial, sans-serif;
-	}
-	
-	.center_column{
-		background-color: #000000;
-		width: 100%;
-	}
+
+.center_column{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
 }
+
 
 .box{
 	background-repeat: no-repeat;
