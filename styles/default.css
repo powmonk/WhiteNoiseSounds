@@ -8,10 +8,6 @@ Page Palette
 */
 
 
-body {
-    background-color: #FFFFFF;
-    font: 15px arial, sans-serif;
-}
 
 h1 {
 	display: block;
@@ -25,6 +21,12 @@ h1 {
 
 
 @media all and (orientation: landscape) { 
+	body {
+	    background-color: #FFFFFF;
+	    font: 15px arial, sans-serif;
+	}
+
+	
 	.center_column{
 		display: block;
 		margin-left: auto;
@@ -34,6 +36,11 @@ h1 {
 }
 
 @media all and (orientation: portrait) {
+	body {
+	    background-color: #888888;
+	    font: 15px arial, sans-serif;
+	}
+	
 	.center_column{
 		background-color: #000000;
 		width: 100%;
