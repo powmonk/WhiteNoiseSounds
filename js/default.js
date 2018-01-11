@@ -13,7 +13,7 @@ function play(audioType){
 			break;
 	}
 	
-	if(!audio.paused){
+	if(audio.paused){
 		audio.play();
 	}else{
 		audio.pause();
