@@ -1,21 +1,19 @@
 
 function play(audioType){
-	var jazz = document.getElementById(audioType);
-
 	
 	switch(audioType) {
 		case 'jazz':
-			jazz.play();
+			var audio = document.getElementById("jazz");
+			audio.play();
 			break;
 		case 'rain':
-			code block
+			var audio = document.getElementById("rain");
+			audio.play();
 			break;
 		case 'noise':
-			code block
+			var audio = document.getElementById("noise");
+			audio.play();
 			break;
-		default:
-			code block
-
 	
 }
 
